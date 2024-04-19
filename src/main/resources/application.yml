@@ -1,0 +1,17 @@
+spring:
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/my_house?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+      username: root
+      password: 123456789
+  jackson:
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 15MB
+      max-request-size: 20MB
+download:
+  address: C:/QLDownload/
+service:
+  ipAddr: http://localhost:8080
+
